@@ -1,0 +1,23 @@
+.service_main_div{
+    height: 300px;
+    /* background-color: rgba(0, 0, 255, 0.274); */
+    border-radius: 5px;
+}
+.service_img{
+    height: 70px;
+}
+.service_icon{
+    height: 100px;
+    width: 100px;
+    background-color: var(--primary)!important;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.service_title{
+    transition: all linear 0.3s;
+}
+.service_title:hover{
+    color: var(--primary)!important;
+}
