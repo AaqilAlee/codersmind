@@ -2,6 +2,7 @@ import AboutUs from "@/Components/AppModules/aboutus/AboutUs";
 import Slider from "../Components/AppModules/slider/HeroNew";
 import Description from "@/Components/AppModules/description/Description";
 import Services from "@/Components/AppModules/services/Services";
+import Strategy from "@/Components/AppModules/strategy/Strategy";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         link="/"
       />
       <Services/>
+      <Strategy/>
       <AboutUs />
     </main>
   );

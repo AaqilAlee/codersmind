@@ -9,7 +9,7 @@ const Services = () => {
 
   return (
     <>
-      <section className="py-5">
+      <section className="pt-5">
         <Container>
           <Row>
             {Data.map((CurData, index) => {

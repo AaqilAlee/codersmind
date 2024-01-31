@@ -78,8 +78,8 @@ export default function Header() {
           </Nav.Link>
 
           <div className='collapse navbar-collapse' id='navbarCollapse'>
-            <div className='navbar-nav ms-auto py-0 pe-4'>
-              <Nav className='me-auto'>
+            <div className='navbar-nav mx-auto py-0 pe-4 position-relative'>
+              <Nav className='mx-auto'>
                 <Nav.Link as={Link} href='/' className='fw_400'>
                   Home
                 </Nav.Link>
@@ -102,7 +102,7 @@ export default function Header() {
                 <NavDropdown
                   className='p-0 rounded-0 about-btn dropdown_menu-7 '
                   title={
-                    <div className='d-flex align-items-center '>
+                    <div className='d-flex align-items-center dropdown_bullet'>
                       <span className='fw_400 position-relative text-uppercase text-light sticky_text_color text-inter font-16 d-flex align-items-center position-relative after_border'>
                         Menu
                       </span>
