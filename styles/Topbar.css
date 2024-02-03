@@ -51,10 +51,10 @@
   border-radius: 50%;
   background-color: #fff;
 }
-span.carousel-control-prev-icon {
+ .hero_banner span.carousel-control-prev-icon {
   display: none !important;
 }
-span.carousel-control-next-icon {
+.hero_banner span.carousel-control-next-icon {
   display: none !important;
 }
 .overbanner2 .dropdown_bullet::after {

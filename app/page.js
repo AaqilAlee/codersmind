@@ -3,6 +3,8 @@ import Slider from "../Components/AppModules/slider/HeroNew";
 import Description from "@/Components/AppModules/description/Description";
 import Services from "@/Components/AppModules/services/Services";
 import Strategy from "@/Components/AppModules/strategy/Strategy";
+import ClientReviews from "@/Components/AppModules/reviews/ClientReviews";
+import StartProject from "@/Components/AppModules/start-project/StartProject";
 
 export default function Home() {
   return (
@@ -14,8 +16,10 @@ export default function Home() {
         descrip="Getting online is easy. Succeeding online is a different story. You’ll need more than just a beautiful website to stand out these days. Online marketing solutions. Conversion-based web design coupled with a lead generating marketing plan, your online success is inevitable."
         link="/"
       />
-      <Services/>
-      <Strategy/>
+      <Services />
+      <Strategy />
+      <ClientReviews />
+      <StartProject/>
       <AboutUs />
     </main>
   );

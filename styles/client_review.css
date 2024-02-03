@@ -1,0 +1,25 @@
+.client_review {
+  background-image: url("/texture_dark.jpg");
+  /* background: #000; */
+  /* padding-top: 80px ;
+  padding-bottom: 120px ; */
+  /* height: 100vh; */
+  clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+}
+.client_img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 10px solid rgba(255, 255, 255, 0.1);
+  object-fit: cover;
+}
+.c_review {
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.c_review_color {
+  color: #9a9a9a !important;
+}
+.client_review .carousel-indicators {
+  bottom: -39px;
+}
