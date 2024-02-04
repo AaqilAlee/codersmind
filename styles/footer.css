@@ -1,5 +1,32 @@
-.footer_dark_bg {
+.mainitem {
   background-image: url("/texture_dark.jpg");
-  height: 450px;
-  clip-path: polygon(50% 55%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+  background-size: cover;
+  height: 250px;
+  clip-path: polygon(50% 15%, 100% 0%, 100% 100%, 0 100%, 0% 0%);
+}
+
+.footer_logo {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  height: 80px;
+  transform: translateX(-50%);
+  z-index: 9999 !important;
+}
+.footer_c_name {
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+  font-size: 40px;
+}
+.footer_icons {
+  color: #0093da;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: all linear 0.3s;
+}
+.footer_icons:hover {
+  color: #0093da;
+  margin-top: -7px;
 }

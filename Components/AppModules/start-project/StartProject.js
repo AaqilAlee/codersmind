@@ -43,7 +43,7 @@ const StartProject = () => {
             </Link>
           </div>
           <Col lg={12}>
-            <div className="d-flex justify-content-center pt-3">
+            <div className="d-flex justify-content-center pt-3 pb-1">
               <img
                 src="/vertical_line.png"
                 className=""

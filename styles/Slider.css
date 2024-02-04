@@ -207,6 +207,9 @@
     top: 0px;
   }
 }
+.carousel-caption {
+  top: 0% !important;
+}
 
 /* CSS */
 .button-48 {
@@ -275,21 +278,18 @@
   position: relative;
 }
 
-
-
-
-.mouse_animation{
-  position: absolute!important;
+.mouse_animation {
+  position: absolute !important;
   bottom: 10%;
   left: 50%;
   transform: translate(-50%);
   z-index: 99999;
   animation: mouse_btn 3s infinite;
 }
-.mouse_btn_size{
+.mouse_btn_size {
   height: 45px;
 }
-@keyframes mouse_btn{
+@keyframes mouse_btn {
   0% {
     bottom: 5%;
   }

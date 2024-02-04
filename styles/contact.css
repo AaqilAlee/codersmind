@@ -1,0 +1,59 @@
+.contact_bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/contact.png");
+  /* height: 150vh; */
+  background-attachment: fixed;
+  clip-path: polygon(50% 0, 100% 10%, 100% 93%, 50% 100%, 0 93%, 0 10%);
+  display: flex;
+  align-items: center;
+  margin-bottom: -50px;
+}
+.first_contact {
+  height: 150px;
+  width: 150px;
+  background-color: aliceblue;
+}
+
+.circle-wrapper {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.icon {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 2.5px;
+  background-clip: content-box;
+  animation: spin 10s linear infinite;
+}
+
+.circle-wrapper:active .circle {
+  animation: spin 2s linear infinite;
+}
+
+.success {
+  background-color: #0093da;
+  border: 2.5px dashed #0093da;
+}
+@keyframes spin {
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+  
