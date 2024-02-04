@@ -5,6 +5,7 @@ import Services from "@/Components/AppModules/services/Services";
 import Strategy from "@/Components/AppModules/strategy/Strategy";
 import ClientReviews from "@/Components/AppModules/reviews/ClientReviews";
 import StartProject from "@/Components/AppModules/start-project/StartProject";
+import ScrollToTopButton from "@/Components/AppModules/scrollTop/ScrollToTopButton";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <ClientReviews />
       <StartProject/>
       <AboutUs />
+      <ScrollToTopButton/>
     </main>
   );
 }

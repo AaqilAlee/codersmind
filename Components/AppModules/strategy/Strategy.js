@@ -7,21 +7,23 @@ const Strategy = () => {
       <section className="strategy">
         <Container>
           <Row>
-          <Col lg={12}>
-            <div className="d-flex justify-content-center strategy_vertical_line">
-              <img
-                src="/vertical_line.png"
-                className=" "
-                alt="vertical line image"
-              />
-            </div>
-          </Col>
+            <Col lg={12}>
+              <div className="d-flex justify-content-center strategy_vertical_line">
+                <img
+                  src="/vertical_line1.png"
+                  className=" "
+                  alt="vertical line image"
+                />
+              </div>
+            </Col>
             <Col lg={4}>
               {/* <div className="d-flex justify-content-center align-items-center"> */}
               <div className="strategy_one position-relative">
                 <div className="d-flex align-items-center">
                   <h2 className="step_title">01</h2>
-                  <p className="strategy_title font_poppins text-capitalize">Strategy</p>
+                  <p className="strategy_title font_poppins text-capitalize">
+                    Strategy
+                  </p>
                 </div>
               </div>
               {/* </div> */}
@@ -33,6 +35,12 @@ const Strategy = () => {
                   alt=""
                   className="img-fluid rounded-pill strategy_img "
                 />
+
+                <img
+                  src="/right_arrow_ls.png"
+                  alt="left down arrow"
+                  className=" left_downa_arrow"
+                />
               </div>
             </Col>
             <Col lg={4}>
@@ -44,7 +52,6 @@ const Strategy = () => {
                 </p>
               </div>
             </Col>
-
 
             <Col lg={4}>
               <div className="strategy_one">
@@ -56,11 +63,16 @@ const Strategy = () => {
               </div>
             </Col>
             <Col lg={4}>
-              <div className="p-5">
+              <div className="p-5 position-relative">
                 <img
                   src="./strategy/step_img_2.jpg"
                   alt=""
                   className="img-fluid rounded-pill strategy_img"
+                />
+                <img
+                  src="/left_arrow_ls1.png"
+                  alt="left down arrow"
+                  className=" right_down_arrow"
                 />
               </div>
             </Col>
@@ -68,30 +80,38 @@ const Strategy = () => {
               {/* <div className="d-flex justify-content-center align-items-center"> */}
               <div className="strategy_one position-relative">
                 <div className="d-flex align-items-center">
-                  <p className="design_title font_poppins text-capitalize">design</p>
+                  <p className="design_title font_poppins text-capitalize">
+                    design
+                  </p>
                   <h2 className="step_title">02</h2>
                 </div>
               </div>
               {/* </div> */}
             </Col>
 
-
             <Col lg={4}>
               {/* <div className="d-flex justify-content-center align-items-center"> */}
               <div className="strategy_one position-relative">
                 <div className="d-flex align-items-center">
                   <h2 className="step_title">03</h2>
-                  <p className="strategy_title font_poppins text-capitalize">Strategy</p>
+                  <p className="strategy_title font_poppins text-capitalize">
+                    Strategy
+                  </p>
                 </div>
               </div>
               {/* </div> */}
             </Col>
             <Col lg={4}>
-              <div className="p-5">
+              <div className="p-5 position-relative">
                 <img
                   src="./strategy/step_img_3.jpg"
                   alt=""
                   className="img-fluid rounded-pill strategy_img"
+                />
+                <img
+                  src="/right_arrow_ls.png"
+                  alt="left down arrow"
+                  className=" left_downa_arrow"
                 />
               </div>
             </Col>
@@ -105,7 +125,6 @@ const Strategy = () => {
               </div>
             </Col>
 
-             
             <Col lg={4}>
               <div className="strategy_one">
                 <p className="strategy_description font_16 font_poppins pe-0 text-end">
@@ -128,21 +147,23 @@ const Strategy = () => {
               {/* <div className="d-flex justify-content-center align-items-center"> */}
               <div className="strategy_one position-relative">
                 <div className="d-flex align-items-center">
-                  <p className="design_title font_poppins text-capitalize">design</p>
+                  <p className="design_title font_poppins text-capitalize">
+                    design
+                  </p>
                   <h2 className="step_title">04</h2>
                 </div>
               </div>
               {/* </div> */}
             </Col>
             <Col lg={12}>
-            <div className="d-flex justify-content-center pt-3">
-              <img
-                src="/vertical_line.png"
-                className=""
-                alt="vertical line image"
-              />
-            </div>
-          </Col>
+              <div className="d-flex justify-content-center pt-3">
+                <img
+                  src="/vertical_line1.png"
+                  className=""
+                  alt="vertical line image"
+                />
+              </div>
+            </Col>
           </Row>
         </Container>
       </section>

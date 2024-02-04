@@ -72,7 +72,7 @@ const ClientReviews = () => {
             </Carousel.Item>
           </Carousel>
         </Container>
-        <div className="d-flex justify-content-center pt-5">
+        <div className="d-flex justify-content-center py-5">
           <img
             src="/vertical_line1.png"
             className=""

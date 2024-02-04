@@ -22,7 +22,7 @@ export default function HeroNew() {
               <div className="">
                 <p className="text-white m-0 fw_400 slideInUp">welcome to</p>
                 <TypeAnimation
-                  sequence={["CodersMind23", 1000, "", ,]}
+                  sequence={["CodersMind23", 1000, "We build What You Need", 1500,]}
                   wrapper="span"
                   cursor={true}
                   repeat={Infinity}

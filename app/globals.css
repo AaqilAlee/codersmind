@@ -37,6 +37,15 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+/* scroll to top button */
+
+.topbutton svg {
+  height: 16px;
+}
+button.scroll-to-top.topbutton {
+  background-color: #28b8d8 !important;
+}
+
 /* 
 body {
   color: rgb(var(--foreground-rgb));

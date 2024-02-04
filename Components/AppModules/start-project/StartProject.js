@@ -6,7 +6,10 @@ const StartProject = () => {
   return (
     <>
       <section>
-        <Container className="pt-4">
+        <Container className="">
+        <div className="my-5 position-relative">
+          <img src="/logo/CM231.png" alt="" className="mini_logo"/>
+        </div>
           <Col lg={12}>
             <div className="d-flex justify-content-center">
               <img
@@ -48,6 +51,7 @@ const StartProject = () => {
               />
             </div>
           </Col>
+         
         </Container>
       </section>
     </>

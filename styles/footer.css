@@ -1,4 +1,5 @@
-.footer_dark_bg{
-    background-image: url("/texture_dark.jpg");
-    height: 300px;
+.footer_dark_bg {
+  background-image: url("/texture_dark.jpg");
+  height: 450px;
+  clip-path: polygon(50% 55%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
 }
