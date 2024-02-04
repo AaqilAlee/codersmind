@@ -7,6 +7,7 @@ import ClientReviews from "@/Components/AppModules/reviews/ClientReviews";
 import StartProject from "@/Components/AppModules/start-project/StartProject";
 import ScrollToTopButton from "@/Components/AppModules/scrollTop/ScrollToTopButton";
 import Contact from "@/Components/AppModules/contact/Contact";
+import TeamMember from "@/Components/AppModules/team/TeamMember";
 
 export default function Home() {
   return (
@@ -20,11 +21,12 @@ export default function Home() {
       />
       <Services />
       <Strategy />
+      <TeamMember />
       <ClientReviews />
-      <StartProject/>
+      <StartProject />
       {/* <AboutUs /> */}
-      <Contact/>
-      <ScrollToTopButton/>
+      <Contact />
+      <ScrollToTopButton />
     </main>
   );
 }

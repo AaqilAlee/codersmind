@@ -7,7 +7,7 @@ const ClientReviews = () => {
   return (
     <>
       <section className="client_review">
-        <div className="d-flex justify-content-center pb-5">
+        <div className="d-flex justify-content-center pt-2 pb-5">
           <img
             src="/vertical_line1.png"
             className=""

@@ -28,7 +28,7 @@ const Services = () => {
               );
             })}
             <Col lg={12}>
-            <div className="d-flex justify-content-center pt-3">
+            <div className="d-flex justify-content-center pt-3 pb-2">
               <img
                 src="/vertical_line.png"
                 className=""

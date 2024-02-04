@@ -1,0 +1,14 @@
+.team_membersec{
+    margin-top: -34px;
+}
+
+.team_members{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 0, 0.1);
+}
+.team_slider_div{
+    height: 350px;
+}

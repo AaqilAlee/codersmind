@@ -3,6 +3,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "../styles/main.css";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "@/Components/AppLayouts/topbar/Header";
 import Footer from "@/Components/AppLayouts/footer/Footer";
