@@ -9,7 +9,7 @@ const TeamMember = () => {
     dots: true,
     infinite: true,
     speed: 1000,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     slidesToShow: 3,
     slidesToScroll: 1,
