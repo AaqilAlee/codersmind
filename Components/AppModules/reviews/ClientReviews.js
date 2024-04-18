@@ -19,57 +19,44 @@ const ClientReviews = () => {
             <Carousel.Item>
               <div className="d-flex justify-content-center align-items-center">
                 <img
-                  src="/review1.jpg"
+                  src="/logo3.png"
                   alt="client image"
                   className="client_img"
                 />
               </div>
               <h3 className="text-center text-light font_poppins text-capitalize pt-4">
-                mr. jhon
+                MB international
               </h3>
               <p className="text-center text-light w-50 font_14 c_review font_poppins fw-light c_review_color fst-italic">
-                I needed more leads for my services. Pay-per-click, banners of
-                maybe even broschures. They made an analysis of my existing
-                site. It occurred that my webdite is banned with Google, and I
-                never knew about that!
+                Working with CoderMind23 was an absolute pleasure. The team was
+                professional, communicative, and delivered top-notch quality
+                work within the agreed timeline. I'm thrilled with the end
+                result and would highly recommend their services to anyone
+                looking for exceptional solutions. 10/10 would work with them
+                again!
               </p>
             </Carousel.Item>
             <Carousel.Item>
               <div className="d-flex justify-content-center align-items-center">
                 <img
-                  src="/review1.jpg"
+                  src="/logo2.png"
                   alt="client image"
                   className="client_img"
                 />
               </div>
               <h3 className="text-center text-light font_poppins text-capitalize pt-4">
-                mr. jhon
+                digital wheel
               </h3>
               <p className="text-center text-light w-50 font_14 c_review font_poppins fw-light c_review_color fst-italic">
-                I needed more leads for my services. Pay-per-click, banners of
-                maybe even broschures. They made an analysis of my existing
-                site. It occurred that my webdite is banned with Google, and I
-                never knew about that!
+                Working with CoderMind23 was an absolute pleasure. The team was
+                professional, communicative, and delivered top-notch quality
+                work within the agreed timeline. I'm thrilled with the end
+                result and would highly recommend their services to anyone
+                looking for exceptional solutions. 10/10 would work with them
+                again!
               </p>
             </Carousel.Item>
-            <Carousel.Item>
-              <div className="d-flex justify-content-center align-items-center">
-                <img
-                  src="/review1.jpg"
-                  alt="client image"
-                  className="client_img"
-                />
-              </div>
-              <h3 className="text-center text-light font_poppins text-capitalize pt-4">
-                mr. jhon
-              </h3>
-              <p className="text-center text-light w-50 font_14 c_review font_poppins fw-light c_review_color fst-italic">
-                I needed more leads for my services. Pay-per-click, banners of
-                maybe even broschures. They made an analysis of my existing
-                site. It occurred that my webdite is banned with Google, and I
-                never knew about that!
-              </p>
-            </Carousel.Item>
+           
           </Carousel>
         </Container>
         <div className="d-flex justify-content-center py-5">

@@ -85,11 +85,11 @@ export default function Header() {
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  href='/#Experience'
+                  href='/Portfolio'
                   scroll={false}
                   className='fw_400 nav-item nav-link sticky_text_color'
                 >
-                  experience
+                  Portfolio
                 </Nav.Link>
                 <Nav.Link
                   as={Link}

@@ -72,11 +72,11 @@ const TeamMember = () => {
               <div className=" team_slider_div d-flex justify-content-center align-items-center">
                 <div>
                   <div className="d-flex justify-content-center">
-                    <img src="/review1.jpg" alt="" className="team_members" />
+                    <img src="/azad.png" alt="" className="team_members" />
                   </div>
                   <div className="pt-2">
                     <h2 className="text-capitalize m-0 font_30 text-center">
-                      rubel azad{" "}
+                      rubel azad
                     </h2>
                     <p className="font_14 text-center text-capitalize">
                       software developer(laravel)
@@ -87,7 +87,7 @@ const TeamMember = () => {
               <div className=" team_slider_div d-flex justify-content-center align-items-center">
                 <div>
                   <div className="d-flex justify-content-center">
-                    <img src="/review1.jpg" alt="" className="team_members" />
+                    <img src="/mamun.jpg" alt="" className="team_members" />
                   </div>
                   <div className="pt-2">
                     <h2 className="text-capitalize m-0 font_30 text-center">
@@ -102,7 +102,7 @@ const TeamMember = () => {
               <div className=" team_slider_div d-flex justify-content-center align-items-center">
                 <div>
                   <div className="d-flex justify-content-center">
-                    <img src="/review1.jpg" alt="" className="team_members" />
+                    <img src="/mihal.png" alt="" className="team_members" />
                   </div>
                   <div className="pt-2">
                     <h2 className="text-capitalize m-0 font_30 text-center">
@@ -117,7 +117,7 @@ const TeamMember = () => {
               <div className=" team_slider_div d-flex justify-content-center align-items-center">
                 <div>
                   <div className="d-flex justify-content-center">
-                    <img src="/review1.jpg" alt="" className="team_members" />
+                    <img src="/imam.png" alt="" className="team_members" />
                   </div>
                   <div className="pt-2">
                     <h2 className="text-capitalize m-0 font_30 text-center">
