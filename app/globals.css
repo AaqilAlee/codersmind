@@ -5,6 +5,9 @@ html {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif!important;
 }
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --primary: #0093da;
   --light: #f1f8ff;
@@ -42,7 +45,7 @@ body {
   height: 16px;
 }
 button.scroll-to-top.topbutton {
-  background-color: #28b8d8 !important;
+  background-color: var(--primary) !important;
 }
 
 /* 

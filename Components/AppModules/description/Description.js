@@ -6,7 +6,7 @@ import Link from "next/link";
 const CompanyDescription = ({ title, descrip, link }) => {
   return (
     <>
-      <section>
+      <section id="about">
         <Container className="pt-4">
           <Col lg={12}>
             <div className="d-flex justify-content-center">
@@ -33,7 +33,7 @@ const CompanyDescription = ({ title, descrip, link }) => {
             </div>
           </Col>
           <div className="d-flex justify-content-center my-4">
-            <Link href={link} className="button-49" role="button">
+            <Link as={Link} href={link} className="button-49" role="button">
               <span className="font_poppins text-uppercase">our portfolio</span>
             </Link>
           </div>

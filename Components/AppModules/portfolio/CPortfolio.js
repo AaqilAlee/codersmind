@@ -1,26 +1,63 @@
+import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 const Portfolio = () => {
   return (
     <>
-      <section>
+      <section className="mb-5">
+        <div>
+          <img
+            src="/portfolio.png"
+            alt=""
+            className="img-fluid portfolio_banner"
+          />
+        </div>
         <Container>
           <Row>
-            <Col>
-              <div className="App">
-                <h1>Hello CodeSandbox</h1>
-                <h2>Start editing to see some magic happen!</h2>
-                <div className="scroll-div">
-                  <img
-                    width="300px"
-                    height="auto"
-                    src="http://dribbble.s3.amazonaws.com/users/197532/screenshots/1145931/freebie-1.png"
-                    style={{ top: "0px" }}
-                  />
+          <Col lg={4}>
+              <Link href="https://adamsvibe.com/" target="_blank">
+                <div className="App mt-5 ps-2">
+                  <div className="scroll-div">
+                    <img
+                      width="300px"
+                      height="auto"
+                      src="/projects/digital.png"
+                      style={{ top: "0px" }}
+                    />
+                  </div>
                 </div>
-              </div>
+              </Link>
             </Col>
+            <Col lg={4}>
+              <Link href="https://insignia-resorts.com/" target="_blank">
+                <div className="App mt-5 ps-2">
+                  <div className="scroll-div">
+                    <img
+                      width="300px"
+                      height="auto"
+                      src="/projects/insignia.png"
+                      style={{ top: "0px" }}
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Col>
+            <Col lg={4}>
+              <Link href="https://ifadeshop.com/" target="_blank">
+                <div className="App mt-5 ps-2">
+                  <div className="scroll-div">
+                    <img
+                      width="300px"
+                      height="auto"
+                      src="/projects/ifad.png"
+                      style={{ top: "0px" }}
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Col>
+            
           </Row>
         </Container>
       </section>

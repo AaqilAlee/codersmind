@@ -44,10 +44,10 @@ export default function HeroNew() {
                 </div>
 
                 <div className="d-flex justify-content-center mt-3 btn_animation">
-                  <Link href="#" className="button-48 me-2" role="button">
+                  <Link href="#about" className="button-48 me-2" role="button">
                     <span className="text text-uppercase">about us</span>
                   </Link>
-                  <Link href="#" className="button-48 ms-2" role="button">
+                  <Link href="/Portfolio" className="button-48 ms-2" role="button">
                     <span className="text text-uppercase">portfolio</span>
                   </Link>
                 </div>

@@ -56,6 +56,26 @@ const ClientReviews = () => {
                 again!
               </p>
             </Carousel.Item>
+            <Carousel.Item>
+              <div className="d-flex justify-content-center align-items-center">
+                <img
+                  src="/logo4.png"
+                  alt="client image"
+                  className="client_img"
+                />
+              </div>
+              <h3 className="text-center text-light font_poppins text-capitalize pt-4">
+              insignia resorts
+              </h3>
+              <p className="text-center text-light w-50 font_14 c_review font_poppins fw-light c_review_color fst-italic">
+                Working with CoderMind23 was an absolute pleasure. The team was
+                professional, communicative, and delivered top-notch quality
+                work within the agreed timeline. I'm thrilled with the end
+                result and would highly recommend their services to anyone
+                looking for exceptional solutions. 10/10 would work with them
+                again!
+              </p>
+            </Carousel.Item>
            
           </Carousel>
         </Container>

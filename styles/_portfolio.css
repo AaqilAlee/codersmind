@@ -2,7 +2,11 @@
     font-family: sans-serif;
     text-align: center;
   }
-  
+  .portfolio_banner{
+    width: 100%;
+    height: 300px!important;
+    object-fit: cover;
+  }
   .scroll-div {
     border-radius: 5px 5px 5px 5px;
     float: left;

@@ -17,7 +17,7 @@ export default function Home() {
         title=" We are the one of the most effective Web Design and Development
                 Companies"
         descrip="Getting online is easy. Succeeding online is a different story. You’ll need more than just a beautiful website to stand out these days. Online marketing solutions. Conversion-based web design coupled with a lead generating marketing plan, your online success is inevitable."
-        link="/"
+        link="/Portfolio"
       />
       <Services />
       <Strategy />
